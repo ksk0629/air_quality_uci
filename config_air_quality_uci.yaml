@@ -1,0 +1,25 @@
+mlflow:
+  experiment_name: air quality uci
+  run_name: default
+dataset:
+  this_type: Null
+  train_size: 0.75
+  time_steps: 7
+rnn:
+  u_units:
+    rnn: 1
+    hidden: 1
+  activations:
+    rnn: tanh
+    hidden: tanh
+train:
+  optimizer: adam
+  loss: mean_squared_error
+  metrics:
+    - MeanSquaredError
+    - MeanAbsoluteError
+  batch_size: 1
+  epochs: 20
+  shuffle: True
+save:
+  output_path: result.png
