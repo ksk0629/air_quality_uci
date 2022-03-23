@@ -6,7 +6,7 @@ dataset:
   train_size: 0.75
   time_steps: 7
 rnn:
-  u_units:
+  n_units:
     rnn: 1
     hidden: 1
   activations:
