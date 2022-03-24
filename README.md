@@ -2,7 +2,7 @@
 This repository is for the dataset called AirQualityUci.
 
 ## Environment
-I checked if the codes in this repository work well **only on google colab whose python version is 3.7.12**. If someone runs those codes on a google colab notebook or the terminal, all you have to do is run `pip install mlflow`. Meanwhile, if someone runs them on another environment, it could work by running `pip install -r requirements.txt. It is automatically extracted by mlflow. Note that, `requirements.txt` is for only cpu. It could work even in gpu environment if you change some packages to use gpu.
+I checked if the codes in this repository work well **only on google colab whose python version is 3.7.12**. If someone runs those codes on a google colab notebook or the terminal, all you have to do is run `pip install mlflow`. Meanwhile, if someone runs them on another environment, it could work by running `pip install -r requirements.txt`. It is automatically extracted by mlflow. Note that, `requirements.txt` is for only cpu. It could work even in gpu environment if you change some packages to use gpu.
 
 ## QuickStart
 1. Download `AirQualityUci.xlsx`. You could get the xlsx file from [Air Quality Time Series data UCI](https://www.kaggle.com/datasets/aayushkandpal/air-quality-time-series-data-uci) on Kaggle.
